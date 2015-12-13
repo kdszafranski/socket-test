@@ -1,6 +1,7 @@
 /*  SERVER  */
 var express = require('express');
 var app = express();
+var socket = require('socket.io');
 
 var index = require('./routes/index');
 
