@@ -1,0 +1,25 @@
+{
+  "name": "castle-kings",
+  "version": "1.0.0",
+  "description": "slide, flip, clash",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kdszafranski@thoughtsheltergames.git.cloudforge.com/castlekings.git"
+  },
+  "keywords": [
+    "games",
+    "prototypes"
+  ],
+  "author": "Kris Szafranski",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "path": "^0.12.7"
+  }
+}
