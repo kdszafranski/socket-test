@@ -6,7 +6,7 @@ var CastleKings = angular.module('CastleKings', ['ngRoute']);
 CastleKings.config(['$routeProvider', function($routeProvider){
     $routeProvider
         .when('/index', {
-            templateUrl: "assets/views/templates/route_index.html",
+            templateUrl: "templates/route_index.html",
             controller: "IndexController"
         })
         .otherwise({

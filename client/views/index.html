@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Castle Kings</title>
-    <script src="/vendors/angular.min.js"></script>
-    <script src="/vendors/angular-route.min.js"></script>
-    <script src="/scripts/main.js"></script>
-    <script src="/scripts/controllers/indexController.js"></script>
+    <script src="angular.min.js"></script>
+    <script src="angular-route.min.js"></script>
+    <!--<script src="/socket.io/socket.io.js"></script>-->
+    <script src="main.js"></script>
+    <script src="controllers/indexController.js"></script>
+
+    <script>
+        var socket = io.connect('http://localhost:5000', {path: '/socket'});
+    </script>
 </head>
 <body ng-app="CastleKings">
     <h1>Castle Kings</h1>

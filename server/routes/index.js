@@ -5,8 +5,10 @@ var express = require("express");
 var router = express.Router();
 var path = require('path');
 
+
+// Catch all, static files
 router.get("/*", function(req, res) {
-    var file = req.params[0] || "../public/assets/views/index.html";
+    var file = "../public/assets/views/index.html";
     res.sendFile(path.join(__dirname, "../public/", file));
 });
 

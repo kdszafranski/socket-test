@@ -24,6 +24,14 @@ module.exports = function(grunt){
                 ],
                 "dest": 'server/public/scripts/'
             },
+            //io: {
+            //    expand: true,
+            //    cwd:'node_modules/socket.io/node_modules/socket.io-client',
+            //    src: [
+            //        "socket.io.js"
+            //    ],
+            //    "dest": 'server/public/vendors/'
+            //},
             angular: {
                 expand: true,
                 cwd: 'node_modules/angular',
